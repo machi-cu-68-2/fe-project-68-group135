@@ -1,9 +1,7 @@
-import Image from "next/image";
+import Banner from "./components/Banner";
 
 export default function Home() {
   return (
-    <div>
-      Group135
-    </div>
+    <Banner/>
   );
 }
