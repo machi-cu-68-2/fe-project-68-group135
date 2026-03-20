@@ -4,12 +4,10 @@ export default function Banner() {
   return (
     <div className="w-full bg-primary flex justify-center items-center h-[50vh] md:h-[30vh]">
       <div className="w-[var(--general-width)] text-white">
-        <span className="text-4xl">Find your perfect stay!</span>
-        <br />
-        <span className="text-xl">
+        <h1 className="text-4xl">Find your perfect stay!</h1>
+        <h2 className="text-xl">
           Book amazing hotels across Thailand with ease!
-        </span>
-        <br />
+        </h2>
         <br />
         <FrontPageSearch />
       </div>
