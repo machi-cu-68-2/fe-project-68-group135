@@ -10,9 +10,9 @@ export default function FeaturedHotelCardPanel() {
           tel="1234567890"
         />
         <HotelCard
-          name="Meep2427's Hotel"
+          name="Meep2447's Hotel"
           location="Dream Island, Goiky"
-          tel="2427242724"
+          tel="2447244724"
         />
         <HotelCard
           name="kaikubez's Hotel"
