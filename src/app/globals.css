@@ -7,6 +7,7 @@
 */
 @theme {
   --color-primary: oklch(64.5% 0.246 16.439);
+  --color-text-primary: white;
 }
 
 :root {
