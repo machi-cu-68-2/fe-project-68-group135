@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
+import { Sarabun } from 'next/font/google';
 import "./globals.css";
+
+const sarabun = Sarabun({
+  weight: ["400","700"],
+  subsets: ["latin","thai"],
+})
 
 export const metadata: Metadata = {
   title: "Group135 Frontend",
@@ -13,7 +19,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <head></head>
+      <body className={sarabun.className}>
         {children}
       </body>
     </html>
